@@ -1,0 +1,8 @@
+
+<FilesMatch \.php$>
+        SetHandler proxy:fcgi://f2hknr-php70
+</FilesMatch>
+
+<FilesMatch \.php$>
+        SetHandler proxy:fcgi://farmtohome-php70
+</FilesMatch>

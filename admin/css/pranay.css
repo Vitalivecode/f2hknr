@@ -1,0 +1,94 @@
+.tooltip-content5::after {
+    left: 2% !important;
+}
+.tooltip-content5 {
+    width: 500px !important;
+    margin: 0 0 0 0 !important;
+}
+.tooltip-inner2{
+    font-size:13px !important;
+    text-align:left !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.red{color:red !important;}
+body{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#side-menu li a {    font-weight: bold !important;}
+.custom-select {height: calc(3.7rem) !important;}
+.mb-0{margin-bottom:0px !important;}
+.table > thead > tr > th {
+    font-weight: bold;
+}
+label{ font-weight: 900; }
+.printableArea{
+    /* font-size: 12px; */
+}
+@media print {
+    #print, #download {
+        display:none;
+    }
+}
+.listar-statistics {
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+.listar-statistics li {
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+    list-style-type: none;
+}
+.listar-statistics li.total .listar-couterholder {
+    background: #575aa0;
+}
+.listar-couterholder {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    min-height: 145px;
+    position: relative;
+    border-radius: 10px;
+}
+.listar-couterholder h3, .listar-couterholder h4, .listar-couterholder h5{
+	color: #fff;
+}
+.navbar .mailbox ul {
+    padding: 0;
+}
+.card {
+    margin-bottom: 20px;
+}
+.round {
+    line-height: 48px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 100%;
+}
+.round.round-success {
+    background: #00c292;
+}
+.round.round-info {
+    background: #01c0c8;
+}
+.round.round-danger {
+    background: #e46a76;
+}
+#dashboard .d-flex{
+	min-height:67px;
+}
+#dashboard-box .h3, #dashboard-box h3 {
+    color: #ffffff !important;
+}
+#dashboard .h5, #dashboard h5 {
+    font-size: 1.5rem !important;
+}

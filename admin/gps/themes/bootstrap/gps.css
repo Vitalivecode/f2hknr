@@ -1,0 +1,314 @@
+.gps{
+    margin-bottom: 20px;
+}
+.gps-list{
+    min-width: 100%;
+    width: auto;
+    display: table !important;
+    margin-bottom: 3px;
+ /*   table-layout: fixed;*/
+}
+.gps-list th, .gps-list td{
+    /*white-space:nowrap;*/
+}
+.gps-column:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.gps-header{
+    border-bottom: 1px solid #E5E5E5;
+}
+.gps-top-actions{
+    padding: 5px 0;
+}
+.gps-container{
+    position: relative;
+}
+.gps-list-container{
+    overflow-x: auto;
+    clear: both;
+}
+
+.gps-nav{
+    padding: 15px 10px 5px;
+}
+.gps-nav > *{
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+td.gps-actions{
+    text-align: right;
+    white-space:nowrap;
+}
+.gps-actions a{
+    vertical-align: top;
+}
+.gps .gps-list .gps-row:hover td.gps-actions-fixed{
+    position: absolute;
+    right: 0;
+    border-left: none;
+    margin-top: -1px;
+}
+
+.gps-overlay{
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff 50% 50% no-repeat url(loading.gif);
+    opacity: 0.5;
+    width: 100%;
+}
+.gps-num{
+    color: #bbb;
+    width: 10px;
+}
+.gps-benchmark{
+    margin: 5px;
+    font-size: 10px;
+    line-height: 1.2;
+    float: right;
+    color: #999;
+}
+.gps-benchmark span {
+    margin: 0 5px;
+}
+table.gps-details.table td input,table.gps-details.table td select,table.gps-details.table td textarea{
+    margin-bottom: 0;
+}
+.gps .tab-content{
+    padding: 8px;
+    border: 1px solid #DDDDDD;
+    border-top: 0;
+}
+/*.gps .gps-remove-file{
+    vertical-align: bottom;
+    margin-left: 5px;
+}*/
+.gps .gps-file-container.error{
+    border: 1px solid #E20101;
+    background-color: #FFE4E4;
+    padding-left: 5px;
+}
+.gps .gps-file-container{
+    font-size: 14px;
+    line-height: 30px;
+}
+.gps .gps-file-container img{
+    max-width: 99%;
+    vertical-align: bottom;
+}
+.gps-add-file{
+    /*margin-top: 5px;*/
+    position: relative;
+    overflow: hidden;
+}
+input.gps-upload{
+    cursor: pointer;
+    direction: ltr;
+    font-size: 100%;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-300px, 0px) scale(4);
+    -webkit-transform: translate(-300px, 0px) scale(4);
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.gps .gps-list td.gps-sum{
+    font-weight: bold;
+}
+
+/* column styles */
+.gps-list td.align-left{
+    text-align: left
+}
+.gps-list td.align-right{
+    text-align: right;
+}
+.gps-list td.align-center{
+    text-align: center;
+}
+.gps-list td.font-bold{
+    font-weight: bold;
+}
+.gps-list td.font-italic{
+    font-style: italic;
+}
+.gps-list td.text-underline{
+    text-decoration: underline;
+}
+.gps .gps-list td .btn{
+    margin-top: -4px;
+    margin-bottom: -4px;
+}
+
+.gps-th th{
+    /* background: #efefef; */
+    white-space: nowrap;
+}
+
+.gps .gps-daterange{
+    width: 80px;
+}
+.gps-googlemap img{
+    max-width: inherit;
+}
+.gps-search input,.gps-search select{
+    width: 10%;
+    margin: 0 5px 0 0;
+    vertical-align: top;
+    min-width: 120px;
+}
+
+.gps .btn-group{
+    white-space: nowrap;
+}
+.gps .btn-group .btn{
+    float: none !important;
+}
+.gps-upload-container img{
+    display: block;
+    max-width: 700px;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+ul.gps-map-dropdown{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 5;
+}
+ul.gps-map-dropdown li{
+    margin: 0;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+ul.gps-map-dropdown li:hover{
+    background: #f4f4f4;
+}
+input.gps-inline{
+    display: inline-block;
+    width: 40%;
+    margin-right: 10px;
+}
+.gps-map{
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    margin: 10px 0;
+}
+/*.gps-radio-label,.gps-checkboxes-label{
+    display: block;
+}
+.gps-radio-label input,.gps-checkboxes-label input{
+    margin-right: 7px;
+}*/
+
+.gps .validation-error{
+    box-shadow: 0 0 1px red, 0 0 3px red !important;
+    background: #FFEBEB !important;
+}
+th.gps-actions{
+    width: 40px;
+}
+a.gps_modal{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*.gps-view table tr td:first-child{
+    width: 30%;
+}*/
+/*td.details-label{
+    width: 30%;
+}*/
+
+
+/* messages */
+.gps-message{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.05),inset 0 1px 0 rgba(0,0,0,0.05);
+    display: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    color: #fff;
+    color: rgba(255,255,255,0.90);
+    cursor: pointer;
+    z-index: 500;
+}
+.gps-message.success{
+    background: #5AB95F;
+    border-top: 1px solid #8A1414;
+    border-bottom: 1px solid #8A1414;
+}
+.gps-message.error{
+    background: #D05C5C;
+    border-top: 1px solid #931C1C;
+    border-bottom: 1px solid #931C1C;
+}
+.gps-message.info{
+    background: #6CC3C6;
+    border-top: 1px solid #127B7C;
+    border-bottom: 1px solid #127B7C;
+}
+.gps-message.note{
+    background: #DDB75D;
+    border-top: 1px solid #A66E13;
+    border-bottom: 1px solid #A66E13;
+}
+.gps-toggle-show{
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: inherit;
+    margin: 8px;
+    cursor: pointer;
+}
+h2{
+    /* border-bottom: 1px solid #ddd; */
+}
+.gps-main-tab{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 15px 6px;
+    margin: 0 2px;
+    font-size: 20px;
+}
+
+#gps-modal-window .modal-body > span > img{
+    display: block;
+    width: 100%;
+}
+
+/* RTL */
+.gps.gps_rtl{
+    direction: rtl;
+}
+.gps.gps_rtl .gps-list .gps-row:hover td.gps-actions-fixed{
+    right: auto;
+    left: 1px;
+}
+.gps.gps_rtl .gps-toggle-show{
+    float: left;
+}
+.gps.gps_rtl .gps-button > i{
+    margin-right: auto;
+    margin-left: 4px;
+}
+.gps.gps_rtl .gps-details-table td:first-child {
+    text-align: left;
+}
